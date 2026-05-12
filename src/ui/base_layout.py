@@ -23,7 +23,7 @@ def style_background_dashboard():
                 """,
                 unsafe_allow_html = True)
     
-def style_base__layout():
+def style_base_layout():
     st.markdown("""
                <style>
                 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
@@ -55,7 +55,7 @@ def style_base__layout():
                     }
                     button{
                         border-radius: 1.5 rem !important;
-                        background: #EB459E !important;
+                        background: #5865F2 !important;
                         color: white !important;
                         padding: 10px 20px !important;
                         border: none !important;
@@ -68,21 +68,19 @@ def style_base__layout():
                         padding: 10px 20px !important;
                         border: none !important;
                         transition: transform 0.25s ease-in-out !important;
-
+                    }
                     button[kind = "Tertiary"] {
                         border-radius: 1.5 rem !important;
-                        background: #EB459E !important;
+                        background: black !important;
                         color: white !important;
                         padding: 10px 20px !important;
                         border: none !important;
                         transition: transform 0.25s ease-in-out !important;
                 
-                }    
-                        font-family: 'Roboto', sans-serif !important;
-                        background-color: #F15888 !important;
-                        color: #E0E3FF !important;
+                    }    
+                    button:hover{
+                        transform: scale(1.05) !important;
                     }
-
                 </style>
                  
                 """,
