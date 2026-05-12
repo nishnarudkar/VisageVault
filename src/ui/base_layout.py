@@ -53,7 +53,36 @@ def style_base__layout():
                         font-family: 'Outfit', sans-serif !important;
                         color: #E0E3FF !important;
                     }
+                    button{
+                        border-radius: 1.5 rem !important;
+                        background: #EB459E !important;
+                        color: white !important;
+                        padding: 10px 20px !important;
+                        border: none !important;
+                        transition: transform 0.25s ease-in-out !important;
+                    }
+                    button[kind = "Secondary"] {
+                        border-radius: 1.5 rem !important;
+                        background: #EB459E !important;
+                        color: white !important;
+                        padding: 10px 20px !important;
+                        border: none !important;
+                        transition: transform 0.25s ease-in-out !important;
+
+                    button[kind = "Tertiary"] {
+                        border-radius: 1.5 rem !important;
+                        background: #EB459E !important;
+                        color: white !important;
+                        padding: 10px 20px !important;
+                        border: none !important;
+                        transition: transform 0.25s ease-in-out !important;
                 
+                }    
+                        font-family: 'Roboto', sans-serif !important;
+                        background-color: #F15888 !important;
+                        color: #E0E3FF !important;
+                    }
+
                 </style>
                  
                 """,
